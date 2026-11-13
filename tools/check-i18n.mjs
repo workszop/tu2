@@ -7,7 +7,8 @@ import { fileURLToPath } from 'node:url';
 import vm from 'node:vm';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
-const SKIP_DIRS = new Set(['.git', 'node_modules', 'assets', 'tools']);
+// Site sources only: skip tooling and the git-ignored working folders.
+const SKIP_DIRS = new Set(['.git', 'node_modules', 'assets', 'tools', 'ux-audit', 'mockups', 'scratch', 'plans', 'superpowers']);
 
 function htmlFiles(dir) {
   return readdirSync(dir).flatMap((name) => {
