@@ -184,6 +184,10 @@ const T = {
     'blog.share': 'Udostępnij wpis:',
     'blog.shareFacebook': 'Udostępnij na Facebooku',
     'blog.shareTwitter': 'Udostępnij na Twitterze',
+    'blog.dateNov13': '13 listopada 2026',
+    'blog.dateNov13Short': '13 lis 2026',
+    'blog.codingTitle': 'Dostrajanie modeli bazowych do kodowania rozpoznań w dokumentacji weterynaryjnej',
+    'blog.surveyTitle': 'Zastosowania AI w cyfrowej weterynarii: przegląd systematyczny',
     'blog.dateMar22': '22 marca 2022',
     'blog.dateOct27': '27 października 2021',
     'blog.dateMar22Short': '22 mar 2022',
@@ -193,6 +197,18 @@ const T = {
     'blog.vetTitle': 'Medycyna weterynaryjna i AI',
 
     // ─── Blog posts ───
+    'postCoding.metaTitle': 'Dostrajanie modeli bazowych do kodowania rozpoznań w dokumentacji weterynaryjnej | vet-eye',
+    'postCoding.metaDesc': 'Badanie z „PLOS Digital Health” o modelach językowych, które automatycznie przypisują kody rozpoznań do dokumentacji weterynaryjnej.',
+    'postCoding.body': `<p>Badanie opublikowane w „PLOS Digital Health” (Mayla R. Boguslav i współautorzy, 2026) pokazuje, jak modele językowe mogą automatycznie przypisywać kody rozpoznań do dokumentacji weterynaryjnej. Zespół dostroił 13 ogólnodostępnych modeli na 246 473 ręcznie zakodowanych wizytach pacjentów szpitala klinicznego Wydziału Weterynarii Colorado State University. Dane obejmowały 7739 kodów rozpoznań SNOMED-CT.</p>
+<p>Wyniki są lepsze niż we wcześniejszych pracach, a według autorów podobne da się uzyskać także przy skromniejszych zasobach i na modelach nieklinicznych.</p>
+<p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC12923131" target="_blank" rel="noopener">Przeczytaj artykuł w PubMed Central</a></p>`,
+
+    'postSurvey.metaTitle': 'Zastosowania AI w cyfrowej weterynarii: przegląd systematyczny | vet-eye',
+    'postSurvey.metaDesc': 'Przegląd systematyczny z „Frontiers in Veterinary Science” o tym, jak AI jest używana w cyfrowej weterynarii, od diagnostyki obrazowej po telemedycynę.',
+    'postSurvey.body': `<p>Przegląd systematyczny opublikowany we „Frontiers in Veterinary Science” (Sameera Polapragada, 2026) pokazuje, jak AI jest używana w cyfrowej weterynarii: w diagnostyce obrazowej, przewidywaniu chorób, wspomaganiu decyzji klinicznych, monitorowaniu za pomocą urządzeń noszonych i telemedycynie. Obejmuje 22 badania opublikowane w latach 2013–2025, w większości dotyczące psów.</p>
+<p>Przegląd wymienia też to, co wciąż utrudnia szersze zastosowanie AI w lecznicach: rozproszone zbiory danych, słabą walidację zewnętrzną i nieprzejrzyste algorytmy.</p>
+<p><a href="https://www.frontiersin.org/journals/veterinary-science/articles/10.3389/fvets.2026.1853395/full" target="_blank" rel="noopener">Przeczytaj artykuł we „Frontiers in Veterinary Science”</a></p>`,
+
     'postAi.metaTitle': 'Jak znaleźć najlepsze zastosowania AI w swojej firmie | vet-eye',
     'postAi.metaDesc': 'Artykuł Bernarda Marra z „Forbesa” o tym, jak w dwóch prostych krokach znaleźć najlepsze zastosowania AI w firmie.',
     'postAi.body': `<p>Bernard Marr pokazuje w „Forbesie”, jak firma może w dwóch prostych krokach znaleźć najlepsze zastosowania AI. Polecamy lekturę.</p>

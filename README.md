@@ -19,6 +19,7 @@ Then open http://localhost:8000/.
 - `assets/css/style.css` – all styles; colours, fonts and sizes are tokens in `:root`. Colours are `light-dark()` pairs, so the site follows the system light or dark theme; blocks that are always dark (header, hero, `.section.dark`, footer) set `color-scheme: dark`. Add the class `reveal` to a block to fade it in on scroll.
 - `404.html` – not-found page; it uses root-absolute paths because it is served at any URL.
 - `tools/check-i18n.mjs` – verifies that every key has a Polish translation.
+- `tools/financial-statement/build.mjs` – builds the designed A4 PDF of the 2020 consolidated financial statements (`assets/docs/2020_Consolidated_Financial_Statement_VET-EYE.pdf`). Wording and figures are those of the original document; only the layout lives here. Needs Google Chrome.
 - `tools/investor-deck/build.mjs` – builds the investor presentation as two PDFs (`assets/docs/2020-investor-presentation-en.pdf` and `-pl.pdf`). Text, figures and layout are in that one file; run `node tools/investor-deck/build.mjs` after changing it. Needs Google Chrome, and Python with Pillow to keep the PDFs small.
 
 ## Changing text
