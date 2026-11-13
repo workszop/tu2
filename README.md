@@ -16,6 +16,7 @@ Then open http://localhost:8000/.
 - `assets/js/i18n.js` – the dictionary `T`. `T.pl` holds the Polish text for every key; `T.en` holds only the strings that are rendered by JavaScript (header, footer, cookie banner).
 - `assets/js/site.js` – renders the shared header, footer and cookie banner, and handles the EN/PL switch, the mobile menu and the contact form.
 - `assets/css/style.css` – all styles; colours, fonts and sizes are tokens in `:root`.
+- `404.html` – not-found page; it uses root-absolute paths because it is served at any URL.
 - `tools/check-i18n.mjs` – verifies that every key has a Polish translation.
 
 ## Changing text

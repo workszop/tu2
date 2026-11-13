@@ -9,7 +9,11 @@
   const CONSENT_KEY = 'vet-eye-cookie-consent';
   const EMAIL_PATTERN = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
   const ORPHANS_PL = /(^|[\s(„»>])([aiouwzAIOUWZ]) /g;
-  const ROOT = new URL('../../', document.currentScript.src).href;
+  const DESKTOP_QUERY = '(min-width: 1024px)';
+  // document.currentScript is null when a script optimiser (e.g. Cloudflare
+  // Rocket Loader) runs this file, so fall back to finding the tag by its src.
+  const SCRIPT = document.currentScript || document.querySelector('script[src$="assets/js/site.js"]');
+  const ROOT = new URL('../../', SCRIPT.src).href;
   const MAP_URL = 'https://www.google.com/maps?q=Lublin,+Poland&z=13&output=embed&hl=';
 
   const NAV = [
@@ -144,6 +148,8 @@
       }).join('');
     });
 
+    refs.main = document.getElementById('main');
+    refs.footer = document.getElementById('site-footer');
     refs.drawer = document.getElementById('drawer');
     refs.navToggle = document.querySelector('.nav-toggle');
     refs.drawerClose = document.querySelector('.drawer-close');
@@ -187,6 +193,9 @@
     refs.drawer.dataset.open = String(state.drawerOpen);
     refs.navToggle.setAttribute('aria-expanded', String(state.drawerOpen));
     document.body.classList.toggle('no-scroll', state.drawerOpen);
+    // Keep keyboard focus inside the open drawer.
+    refs.main.inert = state.drawerOpen;
+    refs.footer.inert = state.drawerOpen;
   }
 
   function renderCookie() {
@@ -233,6 +242,9 @@
     refs.drawerClose.addEventListener('click', function () { setDrawer(false); });
     document.addEventListener('keydown', function (event) {
       if (event.key === 'Escape' && state.drawerOpen) setDrawer(false);
+    });
+    window.matchMedia(DESKTOP_QUERY).addEventListener('change', function (event) {
+      if (event.matches && state.drawerOpen) setDrawer(false);
     });
     refs.cookie.addEventListener('click', function (event) {
       const button = event.target.closest('[data-consent]');

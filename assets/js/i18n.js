@@ -222,6 +222,13 @@ const T = {
 <p>Dr Rolan Tripp interesuje się przyszłością zawodu lekarza weterynarii. Mówi o niej od 30 lat, założył nawet Veterinary Future Society. Jest przekonany, że przyszłością medycyny weterynaryjnej jest AI.</p>
 <p>„Myślę, że większość ludzi nie rozumie, jak ogromny będzie to wpływ. Tak samo sto lat temu lekarze weterynarii patrzyli na pierwszy traktor w polu i śmiali się, kiedy się psuł. Wielu z nich uważa dziś AI za chwilową modę, ale to nie jest moda. AI zrewolucjonizuje sposób, w jaki uprawiamy medycynę weterynaryjną, i to głównie na dobre” – mówi dr Tripp.</p>`,
 
+    // ─── Not found ───
+    'notFound.metaTitle': 'Nie znaleziono strony | vet-eye',
+    'notFound.metaDesc': 'Nie ma takiej strony.',
+    'notFound.title': 'Nie znaleziono strony',
+    'notFound.text': 'Strona, której szukasz, nie istnieje albo została przeniesiona.',
+    'notFound.home': 'Wróć na stronę główną',
+
     // ─── Contact ───
     'contact.metaTitle': 'Kontakt | vet-eye',
     'contact.metaDesc': 'Napisz do vet-eye w Lublinie z pytaniem albo prośbą o wycenę.',
