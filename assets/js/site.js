@@ -114,6 +114,7 @@
         '<div class="footer-grid">' +
           '<div class="footer-brand">' +
             '<a class="logo" href="' + homeHref + '">vet-eye</a>' +
+            '<p class="footer-tagline" data-i18n="footer.tagline"></p>' +
             '<p data-i18n="footer.address"></p>' +
             '<p data-i18n="footer.hours"></p>' +
           '</div>' +

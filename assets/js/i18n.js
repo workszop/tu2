@@ -13,6 +13,7 @@ const T = {
     'chrome.menuClose': 'Close navigation',
     'chrome.language': 'Language',
     'chrome.siteNav': 'Site',
+    'footer.tagline': 'High-end ultrasound scanners for veterinary practices.',
     'footer.address': 'Lublin, Poland',
     'footer.hours': 'Monday–Friday, 9 am–5 pm',
     'footer.connect': 'Connect with us',
@@ -41,6 +42,9 @@ const T = {
     'footer.connect': 'Znajdź nas w sieci',
     'footer.copyright': 'Copyright © 2021 vet-eye – Wszelkie prawa zastrzeżone.',
     'cta.quote': 'Poproś o wycenę',
+    'cta.title': 'Dobierzemy ultrasonograf do Twojej lecznicy',
+    'cta.text': 'Napisz, jakie zwierzęta badasz i jak pracujesz. Odpowiadamy w ciągu 48 godzin.',
+    'footer.tagline': 'Wysokiej klasy ultrasonografy dla lecznic weterynaryjnych.',
     'stats.sites': 'lokalizacje',
     'stats.employees': 'pracowników',
     'stats.clinics': 'lecznic weterynaryjnych codziennie korzysta z naszego sprzętu',
@@ -50,34 +54,42 @@ const T = {
     'cookie.accept': 'Akceptuj',
 
     // ─── Home ───
-    'home.metaTitle': 'vet-eye',
-    'home.metaDesc': 'vet-eye projektuje i produkuje wysokiej klasy ultrasonografy dla lecznic weterynaryjnych.',
-    'home.title': 'Liczy się to, co w środku!',
-    'home.intro': 'Projektujemy i produkujemy wysokiej klasy ultrasonografy dla lecznic weterynaryjnych. Z naszego sprzętu codziennie korzysta ponad 10 000 lecznic.',
+    'home.metaTitle': 'vet-eye | Ultrasonografy weterynaryjne',
+    'home.metaDesc': 'vet-eye projektuje i produkuje wysokiej klasy ultrasonografy dla lecznic weterynaryjnych. Codziennie pracuje na nich ponad 10 000 lecznic.',
+    'home.title': 'Liczy się to, co w środku.',
+    'home.intro': 'Ultrasonografy vet-eye pokazują lekarzowi weterynarii to, czego nie widać na stole zabiegowym. Sami je projektujemy i produkujemy, a codziennie pracuje na nich ponad 10 000 lecznic.',
+    'home.eyebrow': 'USG weterynaryjne',
+    'home.productsTitle': 'Ultrasonograf dopasowany do Twojej pracy',
+    'home.statsTitle': 'Sprzęt, na którym lecznice pracują codziennie',
+    'tile.proKey': 'Nasz najostrzejszy obraz, gotowy do badania w niecałe 25 sekund',
+    'tile.portable': 'Obraz z najwyższej półki, który zabierzesz wszędzie',
+    'tile.pro70': 'W pełni cyfrowy, skonfigurowany pod Twoją lecznicę',
     'home.ctaProducts': 'Zobacz produkty',
 
     // ─── Products ───
     'products.metaTitle': 'Produkty | vet-eye',
     'products.metaDesc': 'Ultrasonografy weterynaryjne: vet pro-key 75, vet portable 15 i vet pro 70.',
-    'products.title': 'Ultrasonografy dla lecznic weterynaryjnych',
-    'products.proKey': `<p>Ultrasonograf <strong>vet pro-key 75</strong> daje lepszy obraz, a przy tym pozostaje tak trwały i niezawodny jak nasze wcześniejsze urządzenia.</p>
+    'products.title': 'Ultrasonografy stworzone dla lecznic weterynaryjnych',
+    'products.lead': 'Trzy przenośne aparaty i jeden cel: obraz, któremu możesz zaufać, gdziekolwiek jest pacjent.',
+    'products.proKey': `<p><strong>vet pro-key 75</strong> daje najostrzejszy obraz w naszej ofercie, a przy tym jest trwały, niezawodny i łatwy do utrzymania w czystości.</p>
 <ul>
-  <li>Przenośny, działa na opcjonalnym stojaku albo bez niego</li>
-  <li>Szerokokątny wyświetlacz z powłoką antyrefleksyjną daje czytelny obraz niezależnie od oświetlenia</li>
-  <li>Uproszczony interfejs z intuicyjnym dostępem do najczęściej używanych funkcji. Gładzik z przyciskiem wyboru ułatwia nawigację</li>
-  <li>Niskoprofilowe przyciski z membraną kopułkową są łatwe do czyszczenia i dają wyczuwalny klik</li>
-  <li>Silikonowa klawiatura jest uszczelniona aż do krawędzi, więc nie przepuszcza płynów i łatwo ją zdezynfekować</li>
+  <li>Pracuje na opcjonalnym stojaku albo bez niego</li>
+  <li>Szerokokątny wyświetlacz z powłoką antyrefleksyjną jest czytelny przy każdym oświetleniu</li>
+  <li>Najczęściej używane funkcje masz zawsze pod ręką, a gładzik z przyciskiem wyboru ułatwia precyzyjną nawigację</li>
+  <li>Niskoprofilowe przyciski z wyczuwalnym klikiem łatwo wytrzeć do czysta</li>
+  <li>Silikonowa klawiatura uszczelniona aż do krawędzi nie przepuszcza płynów i łatwo ją zdezynfekować</li>
   <li>Gotowy do badania w mniej niż 25 sekund od zimnego startu</li>
 </ul>`,
-    'products.portable': '<p><strong>vet portable 15</strong> to nowy przenośny ultrasonograf z najwyższej półki. Łatwo zabrać go ze sobą wszędzie, a zaprojektowano go z myślą o jak najwyższej skuteczności diagnostycznej.</p>',
-    'products.pro70': '<p><strong>vet pro 70</strong> to przenośny, sterowany programowo ultrasonograf o w pełni cyfrowej architekturze. System jest dostępny w wielu konfiguracjach i zestawach funkcji i wyświetla obrazy ultrasonograficzne wysokiej rozdzielczości w czasie rzeczywistym.</p>',
+    'products.portable': '<p><strong>vet portable 15</strong> to obraz z najwyższej półki w aparacie, który łatwo zabrać na każdą wizytę. Zaprojektowaliśmy go z myślą o jak najwyższej skuteczności diagnostycznej, gdziekolwiek jest pacjent.</p>',
+    'products.pro70': '<p><strong>vet pro 70</strong> jest przenośny, w pełni cyfrowy i sterowany programowo, więc dopasujesz go do swojej lecznicy. Wybierasz konfigurację i zestaw funkcji, a aparat wyświetla obrazy wysokiej rozdzielczości w czasie rzeczywistym.</p>',
 
     // ─── Ultrasonography ───
     'ultrasonography.metaTitle': 'Ultrasonografia | vet-eye',
     'ultrasonography.metaDesc': 'Czym jest USG w weterynarii, do czego służy i czy opłaca się lecznicy.',
-    'ultrasonography.title': 'USG',
+    'ultrasonography.title': 'Co pokazuje USG i dlaczego się opłaca',
     'ultrasonography.body': `<p>Badanie ultrasonograficzne (USG, sonografia) polega na skierowaniu na wybraną część ciała fal dźwiękowych o wysokiej częstotliwości, dzięki czemu powstaje obraz wnętrza ciała. W badaniu USG nie używa się promieniowania jonizującego (rentgenowskiego). Obraz powstaje w czasie rzeczywistym, więc widać na nim budowę i ruch narządów wewnętrznych, a także krew płynącą w naczyniach. Badanie można wykonać przy minimalnym unieruchomieniu zwierzęcia lub po lekkiej sedacji.</p>
-<p><strong>Lekarze weterynarii często pod kontrolą USG wprowadzają cienką igłę w zmienioną chorobowo tkankę, żeby pobrać materiał do biopsji. USG jamy brzusznej pozwala ocenić:</strong></p>
+<h3>Co widać w USG jamy brzusznej</h3>
+<p>USG jamy brzusznej pozwala ocenić:</p>
 <ul>
   <li>nerki</li>
   <li>wątrobę</li>
@@ -86,44 +98,47 @@ const T = {
   <li>śledzionę</li>
   <li>naczynia krwionośne jamy brzusznej</li>
 </ul>
-<p><strong>USG pomaga rozpoznać wiele stanów i schorzeń, między innymi:</strong></p>
+<p>Pod kontrolą USG lekarze weterynarii wprowadzają też cienką igłę w zmienioną chorobowo tkankę, żeby pobrać materiał do biopsji.</p>
+<h3>Co pomaga rozpoznać</h3>
 <ul>
   <li>ból brzucha</li>
   <li>zapalenie trzustki</li>
   <li>powiększenie narządu jamy brzusznej</li>
   <li>kamienie w nerkach lub pęcherzu moczowym</li>
   <li>zespolenia wrotno-oboczne</li>
-  <li>biopsje igłowe, w których igłą pobiera się z narządów próbkę komórek do badań laboratoryjnych.</li>
-</ul>`,
-    'ultrasonography.learnTitle': 'Dowiedz się więcej',
+</ul>
+<p>W biopsji igłowej pobiera się z narządu próbkę komórek do badań laboratoryjnych.</p>`,
+    'ultrasonography.learnTitle': 'Zasada działania',
     'ultrasonography.learnText': 'Na stronie o technologii wyjaśniamy, jak działa obrazowanie ultrasonograficzne.',
     'ultrasonography.learnButton': 'Czytaj o technologii',
     'ultrasonography.worthTitle': 'Czy USG się opłaca?',
     'ultrasonography.worthBody': `<p>W ostatnich latach USG stało się w weterynarii standardem. Lecznice inwestują w ultrasonograf najczęściej z tych powodów:</p>
 <ul>
-  <li><strong>Postęp technologiczny</strong></li>
-  <li><strong>Ceny przystępne dla lekarzy i dla właścicieli zwierząt</strong></li>
-  <li><strong>Niższe koszty diagnostyki</strong></li>
-  <li><strong>Nowe zastosowania diagnostyczne i nisze specjalistyczne</strong></li>
-  <li><strong>Więcej pacjentów ze skierowań</strong></li>
+  <li>postęp technologiczny</li>
+  <li>ceny przystępne dla lekarzy i dla właścicieli zwierząt</li>
+  <li>niższe koszty diagnostyki</li>
+  <li>nowe zastosowania diagnostyczne i nisze specjalistyczne</li>
+  <li>więcej pacjentów ze skierowań</li>
 </ul>
-<p><strong>Jak daleko zaszła technologia USG w weterynarii?</strong><br>Dzisiejsze ultrasonografy weterynaryjne są łatwiejsze w obsłudze, mają wyższą rozdzielczość i lepszy kontrast obrazu. Dzięki temu można wiarygodnie uwidocznić mniejsze narządy i dostrzec subtelniejsze zmiany, a diagnozę postawić szybciej i łatwiej, niż było to do pomyślenia jeszcze 5 lat temu. Są nawet funkcje automatycznej optymalizacji obrazu, które zdejmują z lekarzy i techników weterynarii żmudne ustawianie aparatu i pozwalają im skupić się na szybszej i trafniejszej diagnozie.</p>
-<p><strong>Ile średnio kosztuje ultrasonograf dla lecznicy małych zwierząt?</strong><br>Ultrasonograf weterynaryjny z podstawowym zestawem głowic kosztuje średnio od 18 000 do 30 000 dolarów. Cena zależy od tego, czy aparat jest przenośny, czy stacjonarny, od liczby i rodzaju głowic oraz od dodatkowych funkcji oprogramowania, na przykład wbudowanych modułów, które podpowiadają na bieżąco w trakcie badania.</p>
-<p>USG jest więc, nie da się ukryć, drogą metodą. Wielu lekarzy waha się przed takim wydatkiem, ale najnowsze dane Uniwersytetu Illinois i American Animal Hospital Association (AAHA) pokazują, że w większości lecznic USG od razu zaczyna przynosić przychód.</p>
-<p>Stawka za badanie USG zależy od konkretnej procedury, ale nawet przy ostrożnych szacunkach większość lecznic zaczyna na nim zarabiać od razu.</p>
-<p>AAHA przeanalizowała dane z 2015 roku i wyliczyła, że średnia cena badania jamy brzusznej wynosi:</p>
+<h3>Jak rozwinęła się technologia</h3>
+<p>Dzisiejsze ultrasonografy weterynaryjne są łatwiejsze w obsłudze, mają wyższą rozdzielczość i lepszy kontrast obrazu. Można na nich wiarygodnie uwidocznić mniejsze narządy i dostrzec subtelniejsze zmiany, a diagnozę postawić szybciej i łatwiej, niż było to do pomyślenia jeszcze 5 lat temu. Automatyczna optymalizacja obrazu zdejmuje z lekarzy i techników weterynarii żmudne ustawianie aparatu, więc mogą skupić się na szybszej i trafniejszej diagnozie.</p>
+<h3>Ile kosztuje ultrasonograf</h3>
+<p>Ultrasonograf weterynaryjny z podstawowym zestawem głowic kosztuje średnio od 18 000 do 30 000 dolarów. Cena zależy od tego, czy aparat jest przenośny, czy stacjonarny, od liczby i rodzaju głowic oraz od dodatkowych funkcji oprogramowania, na przykład wbudowanych modułów, które podpowiadają na bieżąco w trakcie badania.</p>
+<p>To duży wydatek i wielu lekarzy się przed nim waha. Najnowsze dane Uniwersytetu Illinois i American Animal Hospital Association (AAHA) pokazują jednak, że w większości lecznic USG od razu zaczyna przynosić przychód.</p>
+<h3>Ile przynosi badanie</h3>
+<p>Stawka za badanie USG zależy od konkretnej procedury, ale nawet przy ostrożnych szacunkach większość lecznic zaczyna na nim zarabiać od razu. AAHA przeanalizowała dane z 2015 roku i wyliczyła, że średnia cena badania jamy brzusznej wynosi:</p>
 <ul>
   <li>275 dolarów w dużych miastach</li>
   <li>231 dolarów w miasteczkach</li>
   <li>121 dolarów na terenach wiejskich</li>
 </ul>
 <p>Nowsze badanie Wydziału Medycyny Weterynaryjnej Uniwersytetu Illinois w Urbana-Champaign szacuje średni koszt badania jamy brzusznej w latach 2016–2017 na 260 dolarów. Kwota ta nie obejmuje przychodów z innych badań USG, takich jak diagnostyka ciąży, echokardiografia czy cystocenteza.</p>
-<p>Oznacza to, że przy takim koszcie sprzętu inwestycja zwraca się zwykle przy 5–6 badaniach miesięcznie.</p>
-<p><strong>Co dalej?</strong></p>
-<p>Jak rozwijać lecznicę, kiedy nowoczesny sprzęt już w niej stoi?</p>
-<p><strong>Więcej klientów z polecenia</strong><br>Właściciele zwierząt czują się pewniej, kiedy ich lekarz korzysta z najnowocześniejszych metod. USG ma tak wiele zastosowań, że okazji do wyjaśnienia, jak działa i co daje w leczeniu, nie zabraknie. Zadowoleni klienci polecą lecznicę znajomym, rodzinie i współpracownikom.</p>
-<p><strong>USG dla wyspecjalizowanych nisz</strong><br>USG jest niezbędne w opiece nad zwierzętami w ogrodach zoologicznych, ssakami morskimi, końmi i przeżuwaczami. Przenośny ultrasonograf pozwala oferować usługi także w tych niszach.</p>
-<p><strong>Podsumowanie</strong><br>Większości lekarzy weterynarii USG od razu podnosi przychody. Nawet przy ostrożnych szacunkach zakup ultrasonografu to rozsądna inwestycja. Lecznica, która oferuje USG, zyskuje nowe źródła przychodu, a do tego lojalnych klientów i polecenia.</p>`,
+<p>Przy takim koszcie sprzętu inwestycja zwraca się zwykle przy 5–6 badaniach miesięcznie.</p>
+<h3>Rozwój lecznicy</h3>
+<p><strong>Więcej klientów z polecenia</strong><br>Właściciele zwierząt ufają lekarzowi, który pracuje najnowocześniejszymi metodami. USG ma tyle zastosowań, że okazji do wyjaśnienia, jak działa i co daje ich zwierzęciu, nie zabraknie. Zadowoleni klienci polecają lecznicę znajomym, rodzinie i współpracownikom.</p>
+<p><strong>Wyspecjalizowane nisze</strong><br>USG jest niezbędne w opiece nad zwierzętami w ogrodach zoologicznych, ssakami morskimi, końmi i przeżuwaczami. Z przenośnym ultrasonografem możesz oferować usługi także w tych niszach.</p>
+<h3>Wniosek</h3>
+<p>Większości lekarzy weterynarii USG od razu podnosi przychody i nawet przy ostrożnych szacunkach zakup ultrasonografu to rozsądna inwestycja. Lecznica, która oferuje USG, zyskuje nowe źródła przychodu, a do tego lojalnych klientów i polecenia.</p>`,
 
     // ─── Technology ───
     'technology.metaTitle': 'Technologia | vet-eye',
@@ -140,24 +155,25 @@ const T = {
 <p>Ograniczona jest również głębokość, na jaką można zbadać tkanki. Większość aparatów pokazuje tkanki do głębokości ok. 24 cm, ale obraz bywa tam mocno zaszumiony. Dzieje się tak, bo większość ech nie wraca prosto do głowicy, tylko odbija się w innym kierunku. Na głębokości 24 cm wiązka traci tyle energii, że echa są zbyt słabe, żeby aparat odróżnił je od tła szumów elektronicznych. Poza tym część ech, które nie odbiły się bezpośrednio, może wrócić do głowicy po odbiciu od tkanki leżącej poza torem wiązki. Takie echa wracają później i są wyświetlane w fałszywym miejscu, co dodaje szumu do obrazu. Głowice o niskiej częstotliwości sięgają głębiej niż głowice o wysokiej częstotliwości, ale mają mniejszą rozdzielczość. W ośrodkach płynnych, takich jak pęcherz moczowy, wiązka traci znacznie mniej energii, więc jeśli przechodzi przez taki ośrodek, maksymalną głębokość badania można zwiększyć kosztem rozdzielczości czasowej.</p>
 <h3>Typowe badania</h3>
 <p>USG pozwala ocenić większość tkanek miękkich, w tym mięśnie, ścięgna i więzadła, ale u małych zwierząt nadal najczęściej bada się serce i narządy jamy brzusznej. Struktury jamy brzusznej należy oceniać systematycznie. Każdy badający wypracowuje własny schemat pełnej oceny jamy brzusznej, a systematyczność daje pewność, że żadna struktura nie zostanie pominięta. Dawniej narządy takie jak nadnercza i trzustka były widoczne tylko wtedy, gdy były zmienione chorobowo i powiększone. Nowoczesny aparat w rękach doświadczonego badającego daje jednak obrazy takiej jakości, że prawidłowe nadnercza, trzustkę i węzły chłonne widać rutynowo nawet u dużych psów.</p>`,
-    'technology.linksTitle': 'Linki',
+    'technology.linksTitle': 'Więcej na ten temat',
     'technology.ctaTitle': 'W stronę klinicznych zastosowań sztucznej inteligencji w obrazowaniu ultrasonograficznym',
-    'technology.ctaButton': 'Dowiedz się więcej',
+    'technology.ctaButton': 'Przeczytaj artykuł',
 
     // ─── Company ───
     'company.metaTitle': 'Firma | vet-eye',
     'company.metaDesc': 'O vet-eye: kim jesteśmy, nasze wartości, firma w liczbach, relacje inwestorskie i blog firmowy.',
-    'company.title': 'O nas',
+    'company.title': 'Budujemy ultrasonografy, na których polegają lekarze weterynarii',
     'company.whoTitle': 'Kim jesteśmy',
-    'company.whoText': '<p>Projektujemy i produkujemy wysokiej klasy ultrasonografy weterynaryjne. Siedzibę mamy w Lublinie, a z naszego sprzętu codziennie korzysta ponad 10 000 lecznic weterynaryjnych.</p>',
-    'company.valuesTitle': 'Nasze wartości',
-    'company.valuesText': '<p>Kierujemy się nauką i wspieramy badania, które poprawiają zdrowie i dobrostan zwierząt.</p><p>Wspieramy lekarzy weterynarii w trosce o zdrowie zwierząt.</p><p>Stawiamy na kreatywność i jesteśmy otwarci na zmiany.</p>',
-    'company.numbersTitle': 'W liczbach',
+    'company.whoText': '<p>vet-eye projektuje i produkuje wysokiej klasy ultrasonografy weterynaryjne. Nasz zespół liczy ponad 45 osób i ma siedzibę w Lublinie, a na naszym sprzęcie codziennie pracuje ponad 10 000 lecznic.</p>',
+    'company.valuesTitle': 'Czym się kierujemy',
+    'company.valuesText': '<p>Kierujemy się nauką i wspieramy badania, które poprawiają zdrowie i dobrostan zwierząt.</p><p>Stoimy po stronie lekarzy weterynarii, którzy dbają o zdrowie zwierząt.</p><p>Lubimy nowe pomysły i nie boimy się zmian.</p>',
+    'company.numbersTitle': 'vet-eye w liczbach',
     'company.investorTitle': 'Relacje inwestorskie',
-    'company.presentation': 'Prezentacja dla inwestorów 2020 (pdf)',
-    'company.statement': 'Sprawozdanie finansowe 2020 (pdf)',
+    'company.investorLead': 'W 2020 roku vet-eye osiągnęło 46,3 mln dolarów przychodu. Pełną prezentację i sprawozdanie finansowe znajdziesz poniżej.',
+    'company.presentation': 'Prezentacja dla inwestorów 2020 (PDF)',
+    'company.statement': 'Sprawozdanie finansowe 2020 (PDF)',
     'company.download': 'Pobierz',
-    'blog.title': 'Blog firmowy',
+    'blog.title': 'Z naszego bloga',
     'blog.continue': 'Czytaj dalej',
     'blog.allPosts': 'Wszystkie wpisy',
     'blog.recent': 'Najnowsze wpisy',
@@ -169,25 +185,28 @@ const T = {
     'blog.dateMar22Short': '22 mar 2022',
     'blog.dateOct27Short': '27 paź 2021',
     'blog.aiTitle': 'Jak znaleźć najlepsze zastosowania AI w swojej firmie',
-    'blog.usgTitle': 'Jak dobrze przygotować gabinet do badania USG?',
+    'blog.usgTitle': 'Jak przygotować gabinet do badania USG',
     'blog.vetTitle': 'Medycyna weterynaryjna i AI',
 
     // ─── Blog posts ───
     'postAi.metaTitle': 'Jak znaleźć najlepsze zastosowania AI w swojej firmie | vet-eye',
-    'postAi.metaDesc': 'Świetny artykuł z „Forbesa”',
-    'postAi.body': `<p>Świetny artykuł z „Forbesa”</p>
-<p><a href="${FORBES_URL}" target="_blank" rel="noopener">${FORBES_URL}</a></p>`,
+    'postAi.metaDesc': 'Artykuł Bernarda Marra z „Forbesa” o tym, jak w dwóch prostych krokach znaleźć najlepsze zastosowania AI w firmie.',
+    'postAi.body': `<p>Bernard Marr pokazuje w „Forbesie”, jak firma może w dwóch prostych krokach znaleźć najlepsze zastosowania AI. Polecamy lekturę.</p>
+<p><a href="${FORBES_URL}" target="_blank" rel="noopener">Przeczytaj artykuł w „Forbesie”</a></p>`,
 
-    'postUsg.metaTitle': 'Jak dobrze przygotować gabinet do badania USG? | vet-eye',
+    'postUsg.metaTitle': 'Jak przygotować gabinet do badania USG | vet-eye',
     'postUsg.metaDesc': 'Osiem kroków, dzięki którym badanie USG będzie wygodne dla pacjenta, osoby, która go przytrzymuje, i badającego.',
-    'postUsg.body': `<p>1. Zasłoń żaluzje i zgaś światło. Łatwiej wtedy zobaczyć obraz na ekranie ultrasonografu, a w spokojniejszym otoczeniu pacjent łatwiej się rozluźnia i leży nieruchomo.</p>
-<p>2. Połóż legowisko weterynaryjne, żeby psu było wygodnie.</p>
-<p>3. Ułóż psa na prawym boku, na lewym boku albo na grzbiecie (zależnie od badanej okolicy oraz własnych preferencji i doświadczenia).</p>
-<p>4. Zadbaj o wygodę osoby, która przytrzymuje pacjenta. Jeśli to możliwe i stosowne, podstaw jej krzesło.</p>
-<p>5. Przytrzymaj pacjenta: jedną ręką chwyć przednie łapy i oprzyj przedramię na jego szyi, a drugą tylne łapy i odciągnij je doogonowo, żeby odsłonić tylną część jamy brzusznej. Przy dużym albo wyjątkowo nerwowym czy agresywnym pacjencie przyda się druga osoba do pomocy (jedna trzyma przód, druga tył).</p>
-<p>6. Usiądź wygodnie do badania (jeśli to możliwe i stosowne). Łatwiej wtedy skupić się na badaniu, a kark, plecy i nadgarstek mniej się męczą.</p>
-<p>7. Ustaw ultrasonograf tak, żeby dobrze widzieć ekran i mieć regulatory w zasięgu ręki. Łatwiej wtedy zmieniać ustawienia: dane pacjenta, preset lub typ badania, częstotliwość, głębokość, wzmocnienie, wzmocnienie zależne od czasu (TGC) i ognisko.</p>
-<p>8. Trzymaj głowicę z kciukiem lub palcem wskazującym na znaczniku. Łatwiej wtedy nią manewrować, bo położenie znacznika na głowicy odpowiada znacznikowi na ekranie (zwykle to kropka, strzałka albo inicjały producenta aparatu u góry obrazu USG).</p>
+    'postUsg.body': `<p>W spokojnym, dobrze przygotowanym gabinecie badanie jest łatwiejsze dla pacjenta, dla osoby, która go przytrzymuje, i dla Ciebie. Wystarczy osiem kroków.</p>
+<ol>
+  <li>Zasłoń żaluzje i zgaś światło. Łatwiej wtedy zobaczyć obraz na ekranie ultrasonografu, a w spokojniejszym otoczeniu pacjent łatwiej się rozluźnia i leży nieruchomo.</li>
+  <li>Połóż legowisko weterynaryjne, żeby psu było wygodnie.</li>
+  <li>Ułóż psa na prawym boku, na lewym boku albo na grzbiecie (zależnie od badanej okolicy oraz własnych preferencji i doświadczenia).</li>
+  <li>Zadbaj o wygodę osoby, która przytrzymuje pacjenta. Jeśli to możliwe i stosowne, podstaw jej krzesło.</li>
+  <li>Przytrzymaj pacjenta: jedną ręką chwyć przednie łapy i oprzyj przedramię na jego szyi, a drugą tylne łapy i odciągnij je doogonowo, żeby odsłonić tylną część jamy brzusznej. Przy dużym albo wyjątkowo nerwowym czy agresywnym pacjencie przyda się druga osoba do pomocy (jedna trzyma przód, druga tył).</li>
+  <li>Usiądź wygodnie do badania (jeśli to możliwe i stosowne). Łatwiej wtedy skupić się na badaniu, a kark, plecy i nadgarstek mniej się męczą.</li>
+  <li>Ustaw ultrasonograf tak, żeby dobrze widzieć ekran i mieć regulatory w zasięgu ręki. Łatwiej wtedy zmieniać ustawienia: dane pacjenta, preset lub typ badania, częstotliwość, głębokość, wzmocnienie, wzmocnienie zależne od czasu (TGC) i ognisko.</li>
+  <li>Trzymaj głowicę z kciukiem lub palcem wskazującym na znaczniku. Łatwiej wtedy nią manewrować, bo położenie znacznika na głowicy odpowiada znacznikowi na ekranie (zwykle to kropka, strzałka albo inicjały producenta aparatu u góry obrazu USG).</li>
+</ol>
 <p>Teraz Tobie, pacjentowi i osobie, która go przytrzymuje, będzie dużo wygodniej i można zaczynać badanie.</p>`,
 
     'postVet.metaTitle': 'Medycyna weterynaryjna i AI | vet-eye',
@@ -226,12 +245,13 @@ const T = {
     // ─── Contact ───
     'contact.metaTitle': 'Kontakt | vet-eye',
     'contact.metaDesc': 'Napisz do vet-eye w Lublinie z pytaniem albo prośbą o wycenę.',
-    'contact.title': 'Zadaj pytanie albo poproś o wycenę',
+    'contact.title': 'Opowiedz nam o swojej lecznicy',
+    'contact.lead': 'Zadaj pytanie albo poproś o wycenę. Pomożemy dobrać ultrasonograf i odpowiemy w ciągu 48 godzin.',
     'contact.name': 'Imię i nazwisko',
     'contact.email': 'E-mail*',
     'contact.message': 'Wiadomość',
     'contact.emailError': 'Podaj poprawny adres e-mail.',
-    'contact.send': 'Wyślij',
+    'contact.send': 'Wyślij wiadomość',
     'contact.success': 'Dziękujemy za wiadomość. Odpowiemy w ciągu 48 godzin.',
     'contact.address': 'Lublin, Polska',
     'contact.hoursTitle': 'Godziny otwarcia',
