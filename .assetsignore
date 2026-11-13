@@ -1,0 +1,9 @@
+# Files in the repo that are not part of the public site
+.git
+.gitignore
+.assetsignore
+wrangler.jsonc
+README.md
+tools/
+node_modules/
+.wrangler/
