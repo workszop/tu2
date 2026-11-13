@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Products | vet-eye</title>
 <meta name="description" content="Semiconductor-based veterinary ultrasound systems: vet pro-key 75, vet portable 15 and vet pro 70.">
-<meta name="theme-color" content="#edebe9">
+<meta name="theme-color" content="#0f1416">
 <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32">
 <link rel="icon" href="assets/img/favicon-192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="assets/img/favicon-180.png">
@@ -13,30 +13,70 @@
 <link rel="preload" href="assets/fonts/montserrat-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/roboto-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/style.css">
-<script>document.documentElement.classList.add('js');setTimeout(function(){document.documentElement.classList.add('ready')},3000);</script>
+<script>(function(d){var l;try{l=localStorage.getItem('vet-eye-lang')}catch(e){}if(l!=='en'&&l!=='pl')l=/^pl/i.test(navigator.language||'')?'pl':'en';if(l!=='en'){d.classList.add('js');setTimeout(function(){d.classList.add('ready')},3000)}})(document.documentElement);</script>
 </head>
 <body>
-<div id="site-header"></div>
+<div id="site-header">
+<a class="skip-link" href="#main" data-i18n="chrome.skip">Skip to content</a>
+<header class="site-header"><div class="container bar">
+  <a class="logo" href="index.html">vet-eye</a>
+  <nav class="main-nav" aria-label="Site" data-i18n-attr="aria-label:chrome.siteNav"><ul>
+    <li><a href="index.html" data-nav="home" data-i18n="nav.home">Home</a></li>
+    <li><a href="products.html" data-nav="products" aria-current="page" data-i18n="nav.products">Products</a></li>
+    <li><a href="ultrasonography.html" data-nav="ultrasonography" data-i18n="nav.ultrasonography">Ultrasonography</a></li>
+    <li><a href="technology-1.html" data-nav="technology" data-i18n="nav.technology">Technology</a></li>
+    <li><a href="company.html" data-nav="company" data-i18n="nav.company">Company</a></li>
+    <li><a href="contact-us.html" data-nav="contact" data-i18n="nav.contact">Contact Us</a></li>
+  </ul></nav>
+  <div class="lang-switch" role="group" aria-label="Language" data-i18n-attr="aria-label:chrome.language"><button type="button" data-set-lang="en" lang="en">EN</button><button type="button" data-set-lang="pl" lang="pl">PL</button></div>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="drawer" aria-label="Open navigation" data-i18n-attr="aria-label:chrome.menuOpen"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M19 8H5a1 1 0 1 1 0-2h14a1 1 0 0 1 0 2zm0 5.097H5a1 1 0 1 1 0-2h14a1 1 0 1 1 0 2zm0 5.25H5a1 1 0 1 1 0-2h14a1 1 0 1 1 0 2z"/></svg></button>
+</div></header>
+</div>
 <main id="main">
-<section class="section"><div class="container products-title"><h1 class="heading center" data-i18n="products.title">Semiconductor-Based Technology</h1></div></section>
-<section class="section"><div class="container">
-  <div class="product"><img src="assets/img/vet-pro-key-75.webp" alt="vet pro-key 75" width="1238" height="932"><h2 class="heading">vet pro-key 75</h2><div class="rte lead" data-i18n="products.proKey"><p><strong>vet pro-key 75</strong> ultrasound system offers an enhanced imaging experience while staying true to our durability and reliability.</p><ul>
+<section class="page-head"><div class="container">
+  <p class="eyebrow" data-i18n="nav.products">Products</p>
+  <h1 class="display" data-i18n="products.title">Semiconductor-Based Technology</h1>
+</div></section>
+<section class="section flush-top"><div class="container">
+  <article class="feature" id="pro-key-75">
+    <div class="plate"><img src="assets/img/vet-pro-key-75.webp" alt="vet pro-key 75" width="1238" height="932"></div>
+    <div>
+      <h2 class="heading">vet pro-key 75</h2>
+      <div class="rte checks" data-i18n="products.proKey"><p><strong>vet pro-key 75</strong> ultrasound system offers an enhanced imaging experience while staying true to our durability and reliability.</p><ul>
   <li>Portable, can be used on or off the optional stand</li>
   <li>Wide-angle display with anti-reflection coating provides a clear view regardless of lighting conditions</li>
   <li>Simplified interface for intuitive access to frequently used functions. Trackpad with select button provides efficient navigation</li>
   <li>Low-profile buttons with snap dome technology for easy cleaning and tactile feedback</li>
   <li>Silicone keypad is sealed to the edge to inhibit liquid ingress and disinfect with ease</li>
   <li>Ready to scan from cold start in less than 25 seconds</li>
-</ul></div></div>
-  <div class="grid cols-2 product-row">
-    <div class="product"><img src="assets/img/vet-portable-15.webp" alt="vet portable 15" width="600" height="600" loading="lazy" decoding="async"><h2 class="heading">vet portable 15</h2><div class="rte lead" data-i18n="products.portable"><p><strong>vet portable 15</strong> is the new high-end portable system which is easy to carry with you everywhere and is designed to reach the highest level of diagnostic efficiency.</p></div></div>
-    <div class="product"><img src="assets/img/vet-pro-70.webp" alt="vet pro 70" width="600" height="600" loading="lazy" decoding="async"><h2 class="heading">vet pro 70</h2><div class="rte lead" data-i18n="products.pro70"><p><strong> vet pro 70</strong> ultrasound system is a portable, software-controlled device using all-digital architecture. The system has multiple configurations and feature sets used to display high-resolution, real-time ultrasound images.</p></div></div>
+</ul></div>
+      <p class="btn-row"><a class="btn" href="contact-us.html" data-i18n="cta.quote">Request a quote</a></p>
+    </div>
+  </article>
+</div></section>
+<section class="section soft"><div class="container">
+  <div class="grid cols-2">
+    <article class="card product-card reveal" id="portable-15">
+      <div class="plate"><img src="assets/img/vet-portable-15.webp" alt="vet portable 15" width="600" height="600" loading="lazy" decoding="async"></div>
+      <div class="body">
+        <h2 class="heading">vet portable 15</h2>
+        <div class="rte" data-i18n="products.portable"><p><strong>vet portable 15</strong> is the new high-end portable system which is easy to carry with you everywhere and is designed to reach the highest level of diagnostic efficiency.</p></div>
+        <p class="btn-row"><a class="btn ghost" href="contact-us.html" data-i18n="cta.quote">Request a quote</a></p>
+      </div>
+    </article>
+    <article class="card product-card reveal" id="pro-70">
+      <div class="plate"><img src="assets/img/vet-pro-70.webp" alt="vet pro 70" width="600" height="600" loading="lazy" decoding="async"></div>
+      <div class="body">
+        <h2 class="heading">vet pro 70</h2>
+        <div class="rte" data-i18n="products.pro70"><p><strong> vet pro 70</strong> ultrasound system is a portable, software-controlled device using all-digital architecture. The system has multiple configurations and feature sets used to display high-resolution, real-time ultrasound images.</p></div>
+        <p class="btn-row"><a class="btn ghost" href="contact-us.html" data-i18n="cta.quote">Request a quote</a></p>
+      </div>
+    </article>
   </div>
 </div></section>
-<section class="section dark"><div class="container"><div data-social></div></div></section>
 </main>
 <div id="site-footer"></div>
-<noscript><p class="center"><a href="index.html">Home</a> · <a href="products.html">Products</a> · <a href="ultrasonography.html">Ultrasonography</a> · <a href="technology-1.html">Technology</a> · <a href="company.html">Company</a> · <a href="contact-us.html">Contact Us</a></p></noscript>
+<noscript><p class="center noscript-nav"><a href="index.html">Home</a> · <a href="products.html">Products</a> · <a href="ultrasonography.html">Ultrasonography</a> · <a href="technology-1.html">Technology</a> · <a href="company.html">Company</a> · <a href="contact-us.html">Contact Us</a></p></noscript>
 <script src="assets/js/i18n.js"></script>
 <script src="assets/js/site.js"></script>
 </body>

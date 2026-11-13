@@ -33,9 +33,8 @@ for (const file of htmlFiles(ROOT)) {
     m[1].split(',').forEach((pair) => used.add(pair.split(':')[1].trim()));
   }
 }
-// Keys rendered by site.js: literal ones plus the nav.<id> family.
+// Keys rendered by site.js (the nav.<id> keys are in the static header of every page).
 for (const m of siteJs.matchAll(/(?:data-i18n="|:)((?:chrome|footer|cookie)\.[A-Za-z]+)/g)) used.add(m[1]);
-for (const m of siteJs.matchAll(/\{ id: '([a-z]+)', href:/g)) used.add(`nav.${m[1]}`);
 
 for (const key of used) if (!(key in T.pl)) errors.push(`missing Polish translation: ${key}`);
 for (const key of Object.keys(T.pl)) if (!used.has(key)) errors.push(`unused Polish translation: ${key}`);

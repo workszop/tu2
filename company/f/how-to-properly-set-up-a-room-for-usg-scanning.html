@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>How to properly set up a room for USG scanning? | vet-eye</title>
 <meta name="description" content="Eight steps that make an ultrasound scan comfortable for the patient, the person holding it and you.">
-<meta name="theme-color" content="#edebe9">
+<meta name="theme-color" content="#0f1416">
 <link rel="icon" href="../../assets/img/favicon-32.png" sizes="32x32">
 <link rel="icon" href="../../assets/img/favicon-192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="../../assets/img/favicon-180.png">
@@ -13,13 +13,28 @@
 <link rel="preload" href="../../assets/fonts/montserrat-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="../../assets/fonts/roboto-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../../assets/css/style.css">
-<script>document.documentElement.classList.add('js');setTimeout(function(){document.documentElement.classList.add('ready')},3000);</script>
+<script>(function(d){var l;try{l=localStorage.getItem('vet-eye-lang')}catch(e){}if(l!=='en'&&l!=='pl')l=/^pl/i.test(navigator.language||'')?'pl':'en';if(l!=='en'){d.classList.add('js');setTimeout(function(){d.classList.add('ready')},3000)}})(document.documentElement);</script>
 </head>
 <body>
-<div id="site-header"></div>
+<div id="site-header">
+<a class="skip-link" href="#main" data-i18n="chrome.skip">Skip to content</a>
+<header class="site-header"><div class="container bar">
+  <a class="logo" href="../../index.html">vet-eye</a>
+  <nav class="main-nav" aria-label="Site" data-i18n-attr="aria-label:chrome.siteNav"><ul>
+    <li><a href="../../index.html" data-nav="home" data-i18n="nav.home">Home</a></li>
+    <li><a href="../../products.html" data-nav="products" data-i18n="nav.products">Products</a></li>
+    <li><a href="../../ultrasonography.html" data-nav="ultrasonography" data-i18n="nav.ultrasonography">Ultrasonography</a></li>
+    <li><a href="../../technology-1.html" data-nav="technology" data-i18n="nav.technology">Technology</a></li>
+    <li><a href="../../company.html" data-nav="company" aria-current="page" data-i18n="nav.company">Company</a></li>
+    <li><a href="../../contact-us.html" data-nav="contact" data-i18n="nav.contact">Contact Us</a></li>
+  </ul></nav>
+  <div class="lang-switch" role="group" aria-label="Language" data-i18n-attr="aria-label:chrome.language"><button type="button" data-set-lang="en" lang="en">EN</button><button type="button" data-set-lang="pl" lang="pl">PL</button></div>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="drawer" aria-label="Open navigation" data-i18n-attr="aria-label:chrome.menuOpen"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M19 8H5a1 1 0 1 1 0-2h14a1 1 0 0 1 0 2zm0 5.097H5a1 1 0 1 1 0-2h14a1 1 0 1 1 0 2zm0 5.25H5a1 1 0 1 1 0-2h14a1 1 0 1 1 0 2z"/></svg></button>
+</div></header>
+</div>
 <main id="main">
 <section class="section" id="blog"><div class="container">
-  <p class="display blog-kicker" data-i18n="blog.title">Company Blog</p>
+  <p class="eyebrow" data-i18n="blog.title">Company Blog</p>
   <div class="post-layout">
     <article class="post">
       <a class="all-posts" href="../../company.html#blog" data-i18n="blog.allPosts">All Posts</a>
@@ -51,7 +66,7 @@
 </div></section>
 </main>
 <div id="site-footer"></div>
-<noscript><p class="center"><a href="../../index.html">Home</a> · <a href="../../products.html">Products</a> · <a href="../../ultrasonography.html">Ultrasonography</a> · <a href="../../technology-1.html">Technology</a> · <a href="../../company.html">Company</a> · <a href="../../contact-us.html">Contact Us</a></p></noscript>
+<noscript><p class="center noscript-nav"><a href="../../index.html">Home</a> · <a href="../../products.html">Products</a> · <a href="../../ultrasonography.html">Ultrasonography</a> · <a href="../../technology-1.html">Technology</a> · <a href="../../company.html">Company</a> · <a href="../../contact-us.html">Contact Us</a></p></noscript>
 <script src="../../assets/js/i18n.js"></script>
 <script src="../../assets/js/site.js"></script>
 </body>

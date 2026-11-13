@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Company | vet-eye</title>
 <meta name="description" content="About vet-eye: who we are, core values, our numbers, investor relations and the company blog.">
-<meta name="theme-color" content="#edebe9">
+<meta name="theme-color" content="#0f1416">
 <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32">
 <link rel="icon" href="assets/img/favicon-192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="assets/img/favicon-180.png">
@@ -13,50 +13,70 @@
 <link rel="preload" href="assets/fonts/montserrat-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/roboto-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/style.css">
-<script>document.documentElement.classList.add('js');setTimeout(function(){document.documentElement.classList.add('ready')},3000);</script>
+<script>(function(d){var l;try{l=localStorage.getItem('vet-eye-lang')}catch(e){}if(l!=='en'&&l!=='pl')l=/^pl/i.test(navigator.language||'')?'pl':'en';if(l!=='en'){d.classList.add('js');setTimeout(function(){d.classList.add('ready')},3000)}})(document.documentElement);</script>
 </head>
 <body>
-<div id="site-header"></div>
+<div id="site-header">
+<a class="skip-link" href="#main" data-i18n="chrome.skip">Skip to content</a>
+<header class="site-header"><div class="container bar">
+  <a class="logo" href="index.html">vet-eye</a>
+  <nav class="main-nav" aria-label="Site" data-i18n-attr="aria-label:chrome.siteNav"><ul>
+    <li><a href="index.html" data-nav="home" data-i18n="nav.home">Home</a></li>
+    <li><a href="products.html" data-nav="products" data-i18n="nav.products">Products</a></li>
+    <li><a href="ultrasonography.html" data-nav="ultrasonography" data-i18n="nav.ultrasonography">Ultrasonography</a></li>
+    <li><a href="technology-1.html" data-nav="technology" data-i18n="nav.technology">Technology</a></li>
+    <li><a href="company.html" data-nav="company" aria-current="page" data-i18n="nav.company">Company</a></li>
+    <li><a href="contact-us.html" data-nav="contact" data-i18n="nav.contact">Contact Us</a></li>
+  </ul></nav>
+  <div class="lang-switch" role="group" aria-label="Language" data-i18n-attr="aria-label:chrome.language"><button type="button" data-set-lang="en" lang="en">EN</button><button type="button" data-set-lang="pl" lang="pl">PL</button></div>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="drawer" aria-label="Open navigation" data-i18n-attr="aria-label:chrome.menuOpen"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M19 8H5a1 1 0 1 1 0-2h14a1 1 0 0 1 0 2zm0 5.097H5a1 1 0 1 1 0-2h14a1 1 0 1 1 0 2zm0 5.25H5a1 1 0 1 1 0-2h14a1 1 0 1 1 0 2z"/></svg></button>
+</div></header>
+</div>
 <main id="main">
-<section class="section"><div class="container">
-  <h1 class="lined"><span data-i18n="company.title">About Us</span></h1>
-  <div class="grid cols-3">
-    <div class="about-col">
-      <h2 class="heading" data-i18n="company.whoTitle">Who we are?</h2>
+<section class="page-head"><div class="container">
+  <p class="eyebrow" data-i18n="nav.company">Company</p>
+  <h1 class="display" data-i18n="company.title">About Us</h1>
+</div></section>
+<section class="section flush-top"><div class="container">
+  <div class="grid cols-2">
+    <article class="about-col reveal">
       <img src="assets/img/company-who.webp" alt="" width="1164" height="582">
+      <h2 class="heading" data-i18n="company.whoTitle">Who we are?</h2>
       <div class="rte" data-i18n="company.whoText"><p>If customers can’t find it, it doesn’t exist. Clearly list and describe the services you offer. Also, be sure to showcase a premium service.</p></div>
-    </div>
-    <div class="about-col">
-      <h2 class="heading" data-i18n="company.valuesTitle">Core values</h2>
+    </article>
+    <article class="about-col reveal">
       <img src="assets/img/company-values.webp" alt="" width="1164" height="582">
+      <h2 class="heading" data-i18n="company.valuesTitle">Core values</h2>
       <div class="rte" data-i18n="company.valuesText"><p>We lead with science and promote research to improve the health and wellbeing of animals</p><p>We support veterinarians in their stewardship of animal health.</p><p>We promote creativity and embrace change.</p></div>
-    </div>
-    <div class="about-col">
-      <h2 class="heading" data-i18n="company.numbersTitle">Our numbers</h2>
-      <img src="assets/img/company-numbers.webp" alt="" width="1164" height="582">
-      <div class="rte" data-i18n="company.numbersText"><ul><li>2 sites</li><li>45+ employees</li><li>10 000+ veterinary clinics use our equipment daily</li></ul></div>
-    </div>
+    </article>
+  </div>
+</div></section>
+<section class="section dark"><div class="container">
+  <h2 class="eyebrow" data-i18n="company.numbersTitle">Our numbers</h2>
+  <div class="stats">
+    <div class="stat reveal"><p class="stat-num">2</p><p class="stat-label" data-i18n="stats.sites">sites</p></div>
+    <div class="stat reveal"><p class="stat-num">45+</p><p class="stat-label" data-i18n="stats.employees">employees</p></div>
+    <div class="stat reveal"><p class="stat-num">10&nbsp;000+</p><p class="stat-label" data-i18n="stats.clinics">veterinary clinics use our equipment daily</p></div>
   </div>
 </div></section>
 <section class="section"><div class="container">
-  <h2 class="lined"><span data-i18n="company.investorTitle">Investor relations</span></h2>
+  <h2 class="heading" data-i18n="company.investorTitle">Investor relations</h2>
   <div class="downloads">
     <div class="download"><p data-i18n="company.presentation">2020 Investors Presentation (pdf)</p><a class="btn small" href="assets/docs/2020_earnings_call_vet_eye.pdf" target="_blank" rel="noopener" data-i18n="company.download">Download</a></div>
     <div class="download"><p data-i18n="company.statement">2020 Financial Statement (pdf)</p><a class="btn small" href="assets/docs/2020_Consolidated_Financial_Statement_VET-EYE.pdf" target="_blank" rel="noopener" data-i18n="company.download">Download</a></div>
   </div>
 </div></section>
-<section id="blog"><div class="container"><div class="blog">
-  <h2 class="display" data-i18n="blog.title">Company Blog</h2>
+<section class="section soft" id="blog"><div class="container">
+  <h2 class="heading" data-i18n="blog.title">Company Blog</h2>
   <div class="blog-cards">
-    <a class="blog-card" href="company/f/how-to-identify-the-best-ai-opportunities-for-your-business.html"><img src="assets/img/blog-ai-opportunities.webp" alt="" width="905" height="613" loading="lazy" decoding="async"><div class="body"><p class="date" data-i18n="blog.dateMar22">22 March 2022</p><h3 class="blog-card-title" data-i18n="blog.aiTitle">How To Identify The Best AI Opportunities For Your Business</h3><span class="more" data-i18n="blog.continue">Continue Reading</span></div></a>
-    <a class="blog-card" href="company/f/how-to-properly-set-up-a-room-for-usg-scanning.html"><img src="assets/img/blog-usg-room.webp" alt="" width="1280" height="853" loading="lazy" decoding="async"><div class="body"><p class="date" data-i18n="blog.dateOct27">27 October 2021</p><h3 class="blog-card-title" data-i18n="blog.usgTitle">How to properly set up a room for USG scanning?</h3><span class="more" data-i18n="blog.continue">Continue Reading</span></div></a>
-    <a class="blog-card" href="company/f/veterinary-medicine-and-ai.html"><img src="assets/img/blog-vet-ai.webp" alt="" width="1280" height="853" loading="lazy" decoding="async"><div class="body"><p class="date" data-i18n="blog.dateOct27">27 October 2021</p><h3 class="blog-card-title" data-i18n="blog.vetTitle">Veterinary medicine and AI</h3><span class="more" data-i18n="blog.continue">Continue Reading</span></div></a>
+    <a class="blog-card reveal" href="company/f/how-to-identify-the-best-ai-opportunities-for-your-business.html"><img src="assets/img/blog-ai-opportunities.webp" alt="" width="905" height="613" loading="lazy" decoding="async"><div class="body"><p class="date" data-i18n="blog.dateMar22">22 March 2022</p><h3 class="blog-card-title" data-i18n="blog.aiTitle">How To Identify The Best AI Opportunities For Your Business</h3><span class="more" data-i18n="blog.continue">Continue Reading</span></div></a>
+    <a class="blog-card reveal" href="company/f/how-to-properly-set-up-a-room-for-usg-scanning.html"><img src="assets/img/blog-usg-room.webp" alt="" width="1280" height="853" loading="lazy" decoding="async"><div class="body"><p class="date" data-i18n="blog.dateOct27">27 October 2021</p><h3 class="blog-card-title" data-i18n="blog.usgTitle">How to properly set up a room for USG scanning?</h3><span class="more" data-i18n="blog.continue">Continue Reading</span></div></a>
+    <a class="blog-card reveal" href="company/f/veterinary-medicine-and-ai.html"><img src="assets/img/blog-vet-ai.webp" alt="" width="1280" height="853" loading="lazy" decoding="async"><div class="body"><p class="date" data-i18n="blog.dateOct27">27 October 2021</p><h3 class="blog-card-title" data-i18n="blog.vetTitle">Veterinary medicine and AI</h3><span class="more" data-i18n="blog.continue">Continue Reading</span></div></a>
   </div>
-  <p class="blog-count" aria-hidden="true"><span id="blog-count">1</span> / 3</p>
-</div></div></section>
+</div></section>
 </main>
 <div id="site-footer"></div>
-<noscript><p class="center"><a href="index.html">Home</a> · <a href="products.html">Products</a> · <a href="ultrasonography.html">Ultrasonography</a> · <a href="technology-1.html">Technology</a> · <a href="company.html">Company</a> · <a href="contact-us.html">Contact Us</a></p></noscript>
+<noscript><p class="center noscript-nav"><a href="index.html">Home</a> · <a href="products.html">Products</a> · <a href="ultrasonography.html">Ultrasonography</a> · <a href="technology-1.html">Technology</a> · <a href="company.html">Company</a> · <a href="contact-us.html">Contact Us</a></p></noscript>
 <script src="assets/js/i18n.js"></script>
 <script src="assets/js/site.js"></script>
 </body>

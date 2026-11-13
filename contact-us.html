@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Contact Us | vet-eye</title>
 <meta name="description" content="Contact vet-eye in Lublin, Poland, for questions or quotes.">
-<meta name="theme-color" content="#edebe9">
+<meta name="theme-color" content="#0f1416">
 <link rel="icon" href="assets/img/favicon-32.png" sizes="32x32">
 <link rel="icon" href="assets/img/favicon-192.png" sizes="192x192">
 <link rel="apple-touch-icon" href="assets/img/favicon-180.png">
@@ -13,39 +13,54 @@
 <link rel="preload" href="assets/fonts/montserrat-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="assets/fonts/roboto-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="assets/css/style.css">
-<script>document.documentElement.classList.add('js');setTimeout(function(){document.documentElement.classList.add('ready')},3000);</script>
+<script>(function(d){var l;try{l=localStorage.getItem('vet-eye-lang')}catch(e){}if(l!=='en'&&l!=='pl')l=/^pl/i.test(navigator.language||'')?'pl':'en';if(l!=='en'){d.classList.add('js');setTimeout(function(){d.classList.add('ready')},3000)}})(document.documentElement);</script>
 </head>
 <body>
-<div id="site-header"></div>
+<div id="site-header">
+<a class="skip-link" href="#main" data-i18n="chrome.skip">Skip to content</a>
+<header class="site-header"><div class="container bar">
+  <a class="logo" href="index.html">vet-eye</a>
+  <nav class="main-nav" aria-label="Site" data-i18n-attr="aria-label:chrome.siteNav"><ul>
+    <li><a href="index.html" data-nav="home" data-i18n="nav.home">Home</a></li>
+    <li><a href="products.html" data-nav="products" data-i18n="nav.products">Products</a></li>
+    <li><a href="ultrasonography.html" data-nav="ultrasonography" data-i18n="nav.ultrasonography">Ultrasonography</a></li>
+    <li><a href="technology-1.html" data-nav="technology" data-i18n="nav.technology">Technology</a></li>
+    <li><a href="company.html" data-nav="company" data-i18n="nav.company">Company</a></li>
+    <li><a href="contact-us.html" data-nav="contact" aria-current="page" data-i18n="nav.contact">Contact Us</a></li>
+  </ul></nav>
+  <div class="lang-switch" role="group" aria-label="Language" data-i18n-attr="aria-label:chrome.language"><button type="button" data-set-lang="en" lang="en">EN</button><button type="button" data-set-lang="pl" lang="pl">PL</button></div>
+  <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="drawer" aria-label="Open navigation" data-i18n-attr="aria-label:chrome.menuOpen"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path fill-rule="evenodd" d="M19 8H5a1 1 0 1 1 0-2h14a1 1 0 0 1 0 2zm0 5.097H5a1 1 0 1 1 0-2h14a1 1 0 1 1 0 2zm0 5.25H5a1 1 0 1 1 0-2h14a1 1 0 1 1 0 2z"/></svg></button>
+</div></header>
+</div>
 <main id="main">
-<section class="section"><div class="container">
-  <div class="contact-wrap">
-    <form class="contact-form" data-state="idle" novalidate>
-      <h1 class="heading" data-i18n="contact.title">For Questions or Quotes:</h1>
-      <div class="field"><input type="text" id="cf-name" name="name" placeholder=" " autocomplete="name"><label for="cf-name" data-i18n="contact.name">Name</label></div>
-      <div class="field"><input type="email" id="cf-email" name="email" placeholder=" " autocomplete="email" required aria-describedby="cf-email-error"><label for="cf-email" data-i18n="contact.email">Email*</label><p class="form-error" id="cf-email-error" role="alert" data-i18n="contact.emailError">Please enter a valid email address.</p></div>
-      <div class="field"><textarea id="cf-message" name="message" rows="6" placeholder="Message" aria-label="Message" data-i18n-attr="placeholder:contact.message,aria-label:contact.message"></textarea></div>
+<section class="page-head"><div class="container">
+  <p class="eyebrow" data-i18n="nav.contact">Contact Us</p>
+  <h1 class="display" data-i18n="contact.title">For Questions or Quotes:</h1>
+</div></section>
+<section class="section flush-top"><div class="container">
+  <div class="contact-grid">
+    <form class="contact-form card" data-state="idle" novalidate>
+      <div class="field"><label for="cf-name" data-i18n="contact.name">Name</label><input type="text" id="cf-name" name="name" autocomplete="name"></div>
+      <div class="field"><label for="cf-email" data-i18n="contact.email">Email*</label><input type="email" id="cf-email" name="email" autocomplete="email" required aria-describedby="cf-email-error"><p class="form-error" id="cf-email-error" role="alert" data-i18n="contact.emailError">Please enter a valid email address.</p></div>
+      <div class="field"><label for="cf-message" data-i18n="contact.message">Message</label><textarea id="cf-message" name="message" rows="6"></textarea></div>
       <button class="btn" type="submit" data-i18n="contact.send">Send</button>
-      <p class="recaptcha-note" data-i18n="contact.recaptcha">This site is protected by reCAPTCHA and the Google <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Privacy Policy</a> and <a href="https://policies.google.com/terms" target="_blank" rel="noopener">Terms of Service</a> apply.</p>
       <p class="form-success" role="status" data-i18n="contact.success">Thank you for your inquiry! We will get back to you within 48 hours.</p>
     </form>
-    <div class="grid cols-2 contact-info">
-      <div><h2 class="heading">vet-eye</h2><p data-i18n="contact.address">Lublin, Poland</p></div>
-      <div><h2 class="heading" data-i18n="contact.hoursTitle">Hours</h2><p data-i18n="contact.hours">Monday - Friday: 9am - 5pm</p></div>
+    <div>
+      <div class="contact-info">
+        <div><h2 class="subheading">vet-eye</h2><p data-i18n="contact.address">Lublin, Poland</p></div>
+        <div><h2 class="subheading" data-i18n="contact.hoursTitle">Hours</h2><p data-i18n="contact.hours">Monday - Friday: 9am - 5pm</p></div>
+      </div>
+      <div class="map">
+        <iframe data-map title="Map of Lublin, Poland" data-i18n-attr="title:contact.mapTitle" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <a class="btn small" href="https://www.google.com/maps/dir/?api=1&amp;destination=Lublin,+Poland" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.6 5.1 5.3 10.7c-.5.2-.4.9.1 1l5 1 1 5c.1.5.8.6 1 .1l5.6-13.3c.2-.3-.1-.6-.4-.4z"/></svg><span data-i18n="contact.directions">Get directions</span></a>
+      </div>
     </div>
   </div>
-  <div class="map">
-    <iframe data-map title="Map of Lublin, Poland" data-i18n-attr="title:contact.mapTitle" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    <a class="btn small" href="https://www.google.com/maps/dir/?api=1&amp;destination=Lublin,+Poland" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M18.6 5.1 5.3 10.7c-.5.2-.4.9.1 1l5 1 1 5c.1.5.8.6 1 .1l5.6-13.3c.2-.3-.1-.6-.4-.4z"/></svg><span data-i18n="contact.directions">Get directions</span></a>
-  </div>
-</div></section>
-<section class="section dark"><div class="container">
-  <h2 class="lined"><span data-i18n="contact.connect">Connect With Us</span></h2>
-  <div data-social></div>
 </div></section>
 </main>
 <div id="site-footer"></div>
-<noscript><p class="center"><a href="index.html">Home</a> · <a href="products.html">Products</a> · <a href="ultrasonography.html">Ultrasonography</a> · <a href="technology-1.html">Technology</a> · <a href="company.html">Company</a> · <a href="contact-us.html">Contact Us</a></p></noscript>
+<noscript><p class="center noscript-nav"><a href="index.html">Home</a> · <a href="products.html">Products</a> · <a href="ultrasonography.html">Ultrasonography</a> · <a href="technology-1.html">Technology</a> · <a href="company.html">Company</a> · <a href="contact-us.html">Contact Us</a></p></noscript>
 <script src="assets/js/i18n.js"></script>
 <script src="assets/js/site.js"></script>
 </body>

@@ -1,7 +1,7 @@
 // ─── Translations ───
 // Flat dictionary: T[lang][key]. English page content lives in the HTML itself
 // (elements marked with data-i18n="key"), so T.en only holds strings that are
-// rendered by site.js (header, footer, cookie banner). T.pl holds everything.
+// rendered by site.js (drawer, footer, cookie banner). T.pl holds everything.
 // Lookup order in t(key): T[lang] → T.en → text captured from the HTML.
 
 const FORBES_URL = 'https://www.forbes.com/sites/bernardmarr/2020/08/14/how-to-identify-the-best-ai-opportunities-for-your-business--in-2-simple-steps/?';
@@ -12,14 +12,10 @@ const T = {
     'chrome.menuOpen': 'Open navigation',
     'chrome.menuClose': 'Close navigation',
     'chrome.language': 'Language',
-    'chrome.message': 'Message us',
     'chrome.siteNav': 'Site',
-    'nav.home': 'Home',
-    'nav.products': 'Products',
-    'nav.ultrasonography': 'Ultrasonography',
-    'nav.technology': 'Technology',
-    'nav.company': 'Company',
-    'nav.contact': 'Contact Us',
+    'footer.address': 'Lublin, Poland',
+    'footer.hours': 'Monday - Friday: 9am - 5pm',
+    'footer.connect': 'Connect With Us',
     'footer.copyright': 'Copyright © 2021 vet-eye - All Rights Reserved.',
     'cookie.title': 'This website uses cookies.',
     'cookie.text': 'We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data.',
@@ -33,7 +29,6 @@ const T = {
     'chrome.menuOpen': 'Otwórz menu',
     'chrome.menuClose': 'Zamknij menu',
     'chrome.language': 'Język',
-    'chrome.message': 'Napisz do nas',
     'chrome.siteNav': 'Strona',
     'nav.home': 'Start',
     'nav.products': 'Produkty',
@@ -41,7 +36,14 @@ const T = {
     'nav.technology': 'Technologia',
     'nav.company': 'Firma',
     'nav.contact': 'Kontakt',
+    'footer.address': 'Lublin, Polska',
+    'footer.hours': 'Poniedziałek – piątek: 9:00–17:00',
+    'footer.connect': 'Znajdź nas w sieci',
     'footer.copyright': 'Copyright © 2021 vet-eye – Wszelkie prawa zastrzeżone.',
+    'cta.quote': 'Poproś o wycenę',
+    'stats.sites': 'lokalizacje',
+    'stats.employees': 'pracowników',
+    'stats.clinics': 'lecznic weterynaryjnych codziennie korzysta z naszego sprzętu',
     'cookie.title': 'Ta strona używa plików cookie.',
     'cookie.text': 'Używamy plików cookie, żeby analizować ruch na stronie i dopasowywać ją do Twoich potrzeb. Jeśli zaakceptujesz pliki cookie, Twoje dane zostaną połączone z danymi pozostałych użytkowników.',
     'cookie.decline': 'Odrzuć',
@@ -52,6 +54,7 @@ const T = {
     'home.metaDesc': 'Liczy się to, co w środku!',
     'home.title': 'Liczy się to, co w środku!',
     'home.intro': 'Dwadzieścia lat temu półprzewodniki zrewolucjonizowały rynek konsumenckich urządzeń do obrazowania. Spodziewamy się, że w najbliższych dekadach to samo zrobią z obrazowaniem medycznym.',
+    'home.ctaProducts': 'Zobacz produkty',
 
     // ─── Products ───
     'products.metaTitle': 'Produkty | vet-eye',
@@ -97,7 +100,6 @@ const T = {
     'ultrasonography.learnButton': 'Sprawdź',
     'ultrasonography.worthTitle': 'Czy USG się opłaca?',
     'ultrasonography.worthBody': `<p>W ostatnich latach USG stało się w weterynarii standardem. Dlaczego? Z jakich powodów lecznice najczęściej inwestują w ultrasonograf?</p>
-<p><br></p>
 <ul>
   <li><strong>Postęp technologiczny</strong></li>
   <li><strong>Ceny przystępne dla lekarzy i dla właścicieli zwierząt</strong></li>
@@ -105,12 +107,9 @@ const T = {
   <li><strong>Nowe zastosowania diagnostyczne i nisze specjalistyczne</strong></li>
   <li><strong>Więcej pacjentów ze skierowań</strong></li>
 </ul>
-<p><br></p>
 <p><strong>Jak daleko zaszła technologia USG w weterynarii?</strong><br>Dzisiejsze ultrasonografy weterynaryjne są łatwiejsze w obsłudze, mają wyższą rozdzielczość i lepszy kontrast obrazu. Dzięki temu można wiarygodnie uwidocznić mniejsze narządy i dostrzec subtelniejsze zmiany, a diagnozę postawić szybciej i łatwiej, niż było to do pomyślenia jeszcze 5 lat temu. Są nawet funkcje automatycznej optymalizacji obrazu, które zdejmują z lekarzy i techników weterynarii żmudne ustawianie aparatu i pozwalają im skupić się na szybszej i trafniejszej diagnozie.</p>
-<p><br></p>
 <p><strong>Ile średnio kosztuje ultrasonograf dla lecznicy małych zwierząt?</strong><br>Ultrasonograf weterynaryjny z podstawowym zestawem głowic kosztuje średnio od 18 000 do 30 000 dolarów. Cena zależy od tego, czy aparat jest przenośny, czy stacjonarny, od liczby i rodzaju głowic oraz od dodatkowych funkcji oprogramowania, na przykład wbudowanych modułów, które podpowiadają na bieżąco w trakcie badania.</p>
 <p>USG jest więc, nie da się ukryć, drogą metodą. Wielu lekarzy waha się przed takim wydatkiem, ale najnowsze dane Uniwersytetu Illinois i American Animal Hospital Association (AAHA) pokazują, że w większości lecznic USG od razu zaczyna przynosić przychód.</p>
-<p><br></p>
 <p>Stawka za badanie USG zależy od konkretnej procedury, ale nawet przy ostrożnych szacunkach większość lecznic zaczyna na nim zarabiać od razu.</p>
 <p>AAHA przeanalizowała dane z 2015 roku i wyliczyła, że średnia cena badania jamy brzusznej wynosi:</p>
 <ul>
@@ -119,12 +118,9 @@ const T = {
   <li>121 dolarów na terenach wiejskich</li>
 </ul>
 <p>Nowsze badanie Wydziału Medycyny Weterynaryjnej Uniwersytetu Illinois w Urbana-Champaign szacuje średni koszt badania jamy brzusznej w latach 2016–2017 na 260 dolarów. Kwota ta nie obejmuje przychodów z innych badań USG, takich jak diagnostyka ciąży, echokardiografia czy cystocenteza.</p>
-<p><br></p>
 <p>Oznacza to, że przy takim koszcie sprzętu inwestycja zwraca się zwykle przy 5–6 badaniach miesięcznie.</p>
-<p><br></p>
 <p><strong>Co dalej?</strong></p>
 <p>Jak rozwijać lecznicę, kiedy nowoczesny sprzęt już w niej stoi?</p>
-<p><br></p>
 <p><strong>Więcej klientów z polecenia</strong><br>Właściciele zwierząt czują się pewniej, kiedy ich lekarz korzysta z najnowocześniejszych metod. USG ma tak wiele zastosowań, że okazji do wyjaśnienia, jak działa i co daje w leczeniu, nie zabraknie. Zadowoleni klienci polecą lecznicę znajomym, rodzinie i współpracownikom.</p>
 <p><strong>USG dla wyspecjalizowanych nisz</strong><br>USG jest niezbędne w opiece nad zwierzętami w ogrodach zoologicznych, ssakami morskimi, końmi i przeżuwaczami. Przenośny ultrasonograf pozwala oferować usługi także w tych niszach.</p>
 <p><strong>Podsumowanie</strong><br>Większości lekarzy weterynarii USG od razu podnosi przychody. Nawet przy ostrożnych szacunkach zakup ultrasonografu to rozsądna inwestycja. Lecznica, która oferuje USG, zyskuje nowe źródła przychodu, a do tego lojalnych klientów i polecenia.</p>`,
@@ -135,15 +131,14 @@ const T = {
     'technology.title': 'Technologia',
     'technology.articleTitle': 'Technika ultrasonograficzna',
     'technology.body': `<p>Ultrasonografia to druga najczęściej stosowana metoda obrazowania w praktyce weterynaryjnej. Wykorzystuje fale ultradźwiękowe o częstotliwości 1,5–15 megaherców (MHz), a obraz struktur ciała powstaje na podstawie układu ech odbitych od badanych tkanek i narządów.</p>
-<p><br></p>
+<h3>Jak powstaje obraz</h3>
 <p>Obraz można wyświetlać w kilku formatach. Najbardziej znany, i to on daje właściwy obraz anatomiczny, to prezentacja B (B-mode) w skali szarości. Wiązkę dźwięku wytwarza głowica przyłożona do ciała zwierzęcia i sprzężona z nim akustycznie za pomocą żelu. Głowica wysyła w głąb ciała ultrakrótki impuls dźwięku, po czym przełącza się w tryb odbioru. Echa powstają tam, gdzie wiązka zmienia prędkość, przechodząc z tkanki o jednej gęstości do tkanki o innej gęstości, nawet jeśli zmiana zachodzi na poziomie niemal mikroskopowym. Im większa zmiana prędkości, tym silniejsze echo. Niewielka część tych ech wraca do głowicy, która zamienia ich energię z powrotem na impulsy elektryczne rejestrowane przez komputer ultrasonografu. Zapisywane są: siła echa, czas, po jakim echo wróciło od wysłania impulsu, oraz kierunek wysłanej wiązki. Z informacji z wielu ech aparat tworzy obraz, który odpowiada wyglądowi tkanek przeciętych w tej samej płaszczyźnie na preparacie anatomicznym.</p>
-<p><br></p>
+<h3>Obraz w czasie rzeczywistym</h3>
 <p>W nowoczesnych aparatach wiązka przemiata ciało wiele razy na sekundę, dzięki czemu powstaje dynamiczny obraz w czasie rzeczywistym, zmieniający się wraz z ruchem głowicy. Taki obraz łatwiej zinterpretować, a badający może prowadzić głowicę tak długo, aż uzyska zadowalający obraz. Obraz można wtedy zamrozić i zapisać w formacie cyfrowym, także jako krótki fragment badania w czasie rzeczywistym. Podobnie jak w radiografii i innych systemach obrazowania medycznego, przyjętym i uznawanym prawnie formatem cyfrowych obrazów USG jest standard DICOM III.</p>
-<p><br></p>
+<h3>Ograniczenia metody</h3>
 <p>Ultrasonografią nie da się badać tkanek wypełnionych gazem ani tkanek kostnych. Na granicy tkanki miękkiej i gazu wiązka odbija się w całości, a na granicy tkanki miękkiej i kości jest pochłaniana. Gaz i kość rzucają też „cień” na narządy położone za nimi. Gazy jelitowe mogą utrudniać obrazowanie sąsiednich narządów jamy brzusznej, a serce trzeba obrazować z takich miejsc, w których wiązka nie musi przechodzić przez płuca.</p>
-<p><br></p>
 <p>Ograniczona jest również głębokość, na jaką można zbadać tkanki. Większość aparatów pokazuje tkanki do głębokości ok. 24 cm, ale obraz bywa tam mocno zaszumiony. Dzieje się tak, bo większość ech nie wraca prosto do głowicy, tylko odbija się w innym kierunku. Na głębokości 24 cm wiązka traci tyle energii, że echa są zbyt słabe, żeby aparat odróżnił je od tła szumów elektronicznych. Poza tym część ech, które nie odbiły się bezpośrednio, może wrócić do głowicy po odbiciu od tkanki leżącej poza torem wiązki. Takie echa wracają później i są wyświetlane w fałszywym miejscu, co dodaje szumu do obrazu. Głowice o niskiej częstotliwości sięgają głębiej niż głowice o wysokiej częstotliwości, ale mają mniejszą rozdzielczość. W ośrodkach płynnych, takich jak pęcherz moczowy, wiązka traci znacznie mniej energii, więc jeśli przechodzi przez taki ośrodek, maksymalną głębokość badania można zwiększyć kosztem rozdzielczości czasowej.</p>
-<p><br></p>
+<h3>Typowe badania</h3>
 <p>USG pozwala ocenić większość tkanek miękkich, w tym mięśnie, ścięgna i więzadła, ale u małych zwierząt nadal najczęściej bada się serce i narządy jamy brzusznej. Struktury jamy brzusznej należy oceniać systematycznie. Każdy badający wypracowuje własny schemat pełnej oceny jamy brzusznej, a systematyczność daje pewność, że żadna struktura nie zostanie pominięta. Dawniej narządy takie jak nadnercza i trzustka były widoczne tylko wtedy, gdy były zmienione chorobowo i powiększone. Nowoczesny aparat w rękach doświadczonego badającego daje jednak obrazy takiej jakości, że prawidłowe nadnercza, trzustkę i węzły chłonne widać rutynowo nawet u dużych psów.</p>`,
     'technology.linksTitle': 'Linki',
     'technology.ctaTitle': 'W stronę klinicznych zastosowań sztucznej inteligencji w obrazowaniu ultrasonograficznym',
@@ -158,7 +153,6 @@ const T = {
     'company.valuesTitle': 'Nasze wartości',
     'company.valuesText': '<p>Kierujemy się nauką i wspieramy badania, które poprawiają zdrowie i dobrostan zwierząt</p><p>Wspieramy lekarzy weterynarii w trosce o zdrowie zwierząt.</p><p>Stawiamy na kreatywność i jesteśmy otwarci na zmiany.</p>',
     'company.numbersTitle': 'W liczbach',
-    'company.numbersText': '<ul><li>2 lokalizacje</li><li>ponad 45 pracowników</li><li>ponad 10 000 lecznic weterynaryjnych codziennie korzysta z naszego sprzętu</li></ul>',
     'company.investorTitle': 'Relacje inwestorskie',
     'company.presentation': 'Prezentacja dla inwestorów 2020 (pdf)',
     'company.statement': 'Sprawozdanie finansowe 2020 (pdf)',
@@ -238,13 +232,11 @@ const T = {
     'contact.message': 'Wiadomość',
     'contact.emailError': 'Podaj poprawny adres e-mail.',
     'contact.send': 'Wyślij',
-    'contact.recaptcha': 'Ta strona jest chroniona przez reCAPTCHA. Obowiązują <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Polityka prywatności</a> i <a href="https://policies.google.com/terms" target="_blank" rel="noopener">Warunki korzystania z usług</a> Google.',
     'contact.success': 'Dziękujemy za wiadomość! Odpowiemy w ciągu 48 godzin.',
     'contact.address': 'Lublin, Polska',
     'contact.hoursTitle': 'Godziny otwarcia',
     'contact.hours': 'Poniedziałek – piątek: 9:00–17:00',
     'contact.mapTitle': 'Mapa: Lublin, Polska',
     'contact.directions': 'Wyznacz trasę',
-    'contact.connect': 'Znajdź nas w sieci',
   },
 };
