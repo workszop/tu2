@@ -14,11 +14,11 @@ const T = {
     'chrome.language': 'Language',
     'chrome.siteNav': 'Site',
     'footer.address': 'Lublin, Poland',
-    'footer.hours': 'Monday - Friday: 9am - 5pm',
-    'footer.connect': 'Connect With Us',
+    'footer.hours': 'Monday–Friday, 9 am–5 pm',
+    'footer.connect': 'Connect with us',
     'footer.copyright': 'Copyright © 2021 vet-eye - All Rights Reserved.',
     'cookie.title': 'This website uses cookies.',
-    'cookie.text': 'We use cookies to analyze website traffic and optimize your website experience. By accepting our use of cookies, your data will be aggregated with all other user data.',
+    'cookie.text': 'We use cookies to analyze website traffic and optimize your website experience. If you accept, your data will be aggregated with all other user data.',
     'cookie.decline': 'Decline',
     'cookie.accept': 'Accept',
   },
@@ -51,15 +51,15 @@ const T = {
 
     // ─── Home ───
     'home.metaTitle': 'vet-eye',
-    'home.metaDesc': 'Liczy się to, co w środku!',
+    'home.metaDesc': 'vet-eye projektuje i produkuje wysokiej klasy ultrasonografy dla lecznic weterynaryjnych.',
     'home.title': 'Liczy się to, co w środku!',
-    'home.intro': 'Dwadzieścia lat temu półprzewodniki zrewolucjonizowały rynek konsumenckich urządzeń do obrazowania. Spodziewamy się, że w najbliższych dekadach to samo zrobią z obrazowaniem medycznym.',
+    'home.intro': 'Projektujemy i produkujemy wysokiej klasy ultrasonografy dla lecznic weterynaryjnych. Z naszego sprzętu codziennie korzysta ponad 10 000 lecznic.',
     'home.ctaProducts': 'Zobacz produkty',
 
     // ─── Products ───
     'products.metaTitle': 'Produkty | vet-eye',
-    'products.metaDesc': 'Ultrasonografy weterynaryjne oparte na półprzewodnikach: vet pro-key 75, vet portable 15 i vet pro 70.',
-    'products.title': 'Technologia oparta na półprzewodnikach',
+    'products.metaDesc': 'Ultrasonografy weterynaryjne: vet pro-key 75, vet portable 15 i vet pro 70.',
+    'products.title': 'Ultrasonografy dla lecznic weterynaryjnych',
     'products.proKey': `<p>Ultrasonograf <strong>vet pro-key 75</strong> daje lepszy obraz, a przy tym pozostaje tak trwały i niezawodny jak nasze wcześniejsze urządzenia.</p>
 <ul>
   <li>Przenośny, działa na opcjonalnym stojaku albo bez niego</li>
@@ -96,10 +96,10 @@ const T = {
   <li>biopsje igłowe, w których igłą pobiera się z narządów próbkę komórek do badań laboratoryjnych.</li>
 </ul>`,
     'ultrasonography.learnTitle': 'Dowiedz się więcej',
-    'ultrasonography.learnText': 'Więcej informacji znajdziesz na stronie o technologii',
-    'ultrasonography.learnButton': 'Sprawdź',
+    'ultrasonography.learnText': 'Na stronie o technologii wyjaśniamy, jak działa obrazowanie ultrasonograficzne.',
+    'ultrasonography.learnButton': 'Czytaj o technologii',
     'ultrasonography.worthTitle': 'Czy USG się opłaca?',
-    'ultrasonography.worthBody': `<p>W ostatnich latach USG stało się w weterynarii standardem. Dlaczego? Z jakich powodów lecznice najczęściej inwestują w ultrasonograf?</p>
+    'ultrasonography.worthBody': `<p>W ostatnich latach USG stało się w weterynarii standardem. Lecznice inwestują w ultrasonograf najczęściej z tych powodów:</p>
 <ul>
   <li><strong>Postęp technologiczny</strong></li>
   <li><strong>Ceny przystępne dla lekarzy i dla właścicieli zwierząt</strong></li>
@@ -129,10 +129,10 @@ const T = {
     'technology.metaTitle': 'Technologia | vet-eye',
     'technology.metaDesc': 'Jak działa ultrasonografia: prezentacja B, głowice, ograniczenia metody i typowe badania.',
     'technology.title': 'Technologia',
-    'technology.articleTitle': 'Technika ultrasonograficzna',
+    'technology.articleTitle': 'Jak działa ultrasonografia',
     'technology.body': `<p>Ultrasonografia to druga najczęściej stosowana metoda obrazowania w praktyce weterynaryjnej. Wykorzystuje fale ultradźwiękowe o częstotliwości 1,5–15 megaherców (MHz), a obraz struktur ciała powstaje na podstawie układu ech odbitych od badanych tkanek i narządów.</p>
 <h3>Jak powstaje obraz</h3>
-<p>Obraz można wyświetlać w kilku formatach. Najbardziej znany, i to on daje właściwy obraz anatomiczny, to prezentacja B (B-mode) w skali szarości. Wiązkę dźwięku wytwarza głowica przyłożona do ciała zwierzęcia i sprzężona z nim akustycznie za pomocą żelu. Głowica wysyła w głąb ciała ultrakrótki impuls dźwięku, po czym przełącza się w tryb odbioru. Echa powstają tam, gdzie wiązka zmienia prędkość, przechodząc z tkanki o jednej gęstości do tkanki o innej gęstości, nawet jeśli zmiana zachodzi na poziomie niemal mikroskopowym. Im większa zmiana prędkości, tym silniejsze echo. Niewielka część tych ech wraca do głowicy, która zamienia ich energię z powrotem na impulsy elektryczne rejestrowane przez komputer ultrasonografu. Zapisywane są: siła echa, czas, po jakim echo wróciło od wysłania impulsu, oraz kierunek wysłanej wiązki. Z informacji z wielu ech aparat tworzy obraz, który odpowiada wyglądowi tkanek przeciętych w tej samej płaszczyźnie na preparacie anatomicznym.</p>
+<p>Obraz można wyświetlać w kilku formatach. Najbardziej znany, i to on daje właściwy obraz anatomiczny, to prezentacja B (B-mode) w skali szarości. Wiązkę dźwięku wytwarza głowica przyłożona do ciała zwierzęcia i sprzężona z nim akustycznie za pomocą żelu. Głowica wysyła w głąb ciała ultrakrótki impuls dźwięku, po czym przełącza się w tryb odbioru. Echa powstają tam, gdzie wiązka zmienia prędkość, czyli przy przejściu z tkanki o jednej gęstości do tkanki o innej gęstości, nawet jeśli zmiana zachodzi na poziomie niemal mikroskopowym. Im większa zmiana prędkości, tym silniejsze echo. Niewielka część tych ech wraca do głowicy, która zamienia ich energię z powrotem na impulsy elektryczne rejestrowane przez komputer ultrasonografu. Zapisywane są: siła echa, czas, po jakim echo wróciło od wysłania impulsu, oraz kierunek wysłanej wiązki. Z informacji z wielu ech aparat tworzy obraz, który odpowiada wyglądowi tkanek przeciętych w tej samej płaszczyźnie na preparacie anatomicznym.</p>
 <h3>Obraz w czasie rzeczywistym</h3>
 <p>W nowoczesnych aparatach wiązka przemiata ciało wiele razy na sekundę, dzięki czemu powstaje dynamiczny obraz w czasie rzeczywistym, zmieniający się wraz z ruchem głowicy. Taki obraz łatwiej zinterpretować, a badający może prowadzić głowicę tak długo, aż uzyska zadowalający obraz. Obraz można wtedy zamrozić i zapisać w formacie cyfrowym, także jako krótki fragment badania w czasie rzeczywistym. Podobnie jak w radiografii i innych systemach obrazowania medycznego, przyjętym i uznawanym prawnie formatem cyfrowych obrazów USG jest standard DICOM III.</p>
 <h3>Ograniczenia metody</h3>
@@ -148,10 +148,10 @@ const T = {
     'company.metaTitle': 'Firma | vet-eye',
     'company.metaDesc': 'O vet-eye: kim jesteśmy, nasze wartości, firma w liczbach, relacje inwestorskie i blog firmowy.',
     'company.title': 'O nas',
-    'company.whoTitle': 'Kim jesteśmy?',
-    'company.whoText': '<p>Jeśli klienci nie mogą czegoś znaleźć, to dla nich nie istnieje. Wymień i opisz jasno usługi, które oferujesz. Pamiętaj też, żeby wyróżnić usługę premium.</p>',
+    'company.whoTitle': 'Kim jesteśmy',
+    'company.whoText': '<p>Projektujemy i produkujemy wysokiej klasy ultrasonografy weterynaryjne. Siedzibę mamy w Lublinie, a z naszego sprzętu codziennie korzysta ponad 10 000 lecznic weterynaryjnych.</p>',
     'company.valuesTitle': 'Nasze wartości',
-    'company.valuesText': '<p>Kierujemy się nauką i wspieramy badania, które poprawiają zdrowie i dobrostan zwierząt</p><p>Wspieramy lekarzy weterynarii w trosce o zdrowie zwierząt.</p><p>Stawiamy na kreatywność i jesteśmy otwarci na zmiany.</p>',
+    'company.valuesText': '<p>Kierujemy się nauką i wspieramy badania, które poprawiają zdrowie i dobrostan zwierząt.</p><p>Wspieramy lekarzy weterynarii w trosce o zdrowie zwierząt.</p><p>Stawiamy na kreatywność i jesteśmy otwarci na zmiany.</p>',
     'company.numbersTitle': 'W liczbach',
     'company.investorTitle': 'Relacje inwestorskie',
     'company.presentation': 'Prezentacja dla inwestorów 2020 (pdf)',
@@ -184,7 +184,7 @@ const T = {
 <p>2. Połóż legowisko weterynaryjne, żeby psu było wygodnie.</p>
 <p>3. Ułóż psa na prawym boku, na lewym boku albo na grzbiecie (zależnie od badanej okolicy oraz własnych preferencji i doświadczenia).</p>
 <p>4. Zadbaj o wygodę osoby, która przytrzymuje pacjenta. Jeśli to możliwe i stosowne, podstaw jej krzesło.</p>
-<p>5. Przytrzymaj pacjenta: jedną ręką chwyć przednie łapy, opierając przedramię na jego szyi, a drugą tylne łapy i odciągnij je doogonowo, żeby odsłonić tylną część jamy brzusznej. Przy dużym albo wyjątkowo nerwowym czy agresywnym pacjencie przyda się druga osoba do pomocy (jedna trzyma przód, druga tył).</p>
+<p>5. Przytrzymaj pacjenta: jedną ręką chwyć przednie łapy i oprzyj przedramię na jego szyi, a drugą tylne łapy i odciągnij je doogonowo, żeby odsłonić tylną część jamy brzusznej. Przy dużym albo wyjątkowo nerwowym czy agresywnym pacjencie przyda się druga osoba do pomocy (jedna trzyma przód, druga tył).</p>
 <p>6. Usiądź wygodnie do badania (jeśli to możliwe i stosowne). Łatwiej wtedy skupić się na badaniu, a kark, plecy i nadgarstek mniej się męczą.</p>
 <p>7. Ustaw ultrasonograf tak, żeby dobrze widzieć ekran i mieć regulatory w zasięgu ręki. Łatwiej wtedy zmieniać ustawienia: dane pacjenta, preset lub typ badania, częstotliwość, głębokość, wzmocnienie, wzmocnienie zależne od czasu (TGC) i ognisko.</p>
 <p>8. Trzymaj głowicę z kciukiem lub palcem wskazującym na znaczniku. Łatwiej wtedy nią manewrować, bo położenie znacznika na głowicy odpowiada znacznikowi na ekranie (zwykle to kropka, strzałka albo inicjały producenta aparatu u góry obrazu USG).</p>
@@ -204,7 +204,7 @@ const T = {
 <p>„Złoty standard oznacza, że nie mogę postawić diagnozy wcześniej niż po co najmniej 10 dniach choroby. A naprawdę potrzebujemy narzędzia, które pomoże nam powiedzieć właścicielom coś o rokowaniu, kiedy patrzymy na chorego psa i decydujemy, czy zaczynać dializę.</p>
 <p>Mamy nadzieję, że znajdziemy w danych wzorce, które pomogą nam ustalić, czy pies ma leptospirozę. A przynajmniej powiedzieć właścicielowi, że naszym zdaniem jest 80% szans, że to leptospiroza, albo że to bardzo mało prawdopodobne”.</p>
 <h2>Rentgenowski wzrok</h2>
-<p>Radiografia to kolejna dziedzina, w której AI sprawdza się bardzo dobrze. Złożone algorytmy z dużą trafnością rozpoznają wzorce w danych obrazowych.</p>
+<p>W radiografii AI też sprawdza się bardzo dobrze. Złożone algorytmy z dużą trafnością rozpoznają wzorce w danych obrazowych.</p>
 <p>Według szacunków amerykańskiej Narodowej Akademii Medycyny w 2005 roku ukazało się około 100 publikacji naukowych o AI w radiologii, a w 2017 roku było ich już ponad 800.</p>
 <p>„Do zadań, do których obecna technologia AI wydaje się dobrze nadawać, należą: ustalanie priorytetów i śledzenie zmian wymagających szybkiej reakcji, porównywanie obrazów bieżących z wcześniejszymi oraz masowe badania przesiewowe, dzięki którym radiolodzy mogą skupić się na obrazach najprawdopodobniej nieprawidłowych” – napisała akademia w raporcie z 2019 roku. „Z czasem jednak interpretację rutynowych badań obrazowych coraz częściej będą zapewne wykonywać aplikacje AI”.</p>
 <p>Firma Vetology od 2010 roku świadczy tradycyjne usługi teleradiologii weterynaryjnej. Dwa lata temu zaczęła oferować analizę AI zdjęć rentgenowskich klatki piersiowej, serca i płuc u psów. Wyniki są gotowe w ciągu pięciu minut, a trafność ma dorównywać trafności radiologa weterynaryjnego, mówi dr Seth Wallack, założyciel i prezes Vetology, dyplomowany radiolog weterynaryjny.</p>
@@ -226,13 +226,13 @@ const T = {
     // ─── Contact ───
     'contact.metaTitle': 'Kontakt | vet-eye',
     'contact.metaDesc': 'Napisz do vet-eye w Lublinie z pytaniem albo prośbą o wycenę.',
-    'contact.title': 'Pytania i wyceny:',
+    'contact.title': 'Zadaj pytanie albo poproś o wycenę',
     'contact.name': 'Imię i nazwisko',
     'contact.email': 'E-mail*',
     'contact.message': 'Wiadomość',
     'contact.emailError': 'Podaj poprawny adres e-mail.',
     'contact.send': 'Wyślij',
-    'contact.success': 'Dziękujemy za wiadomość! Odpowiemy w ciągu 48 godzin.',
+    'contact.success': 'Dziękujemy za wiadomość. Odpowiemy w ciągu 48 godzin.',
     'contact.address': 'Lublin, Polska',
     'contact.hoursTitle': 'Godziny otwarcia',
     'contact.hours': 'Poniedziałek – piątek: 9:00–17:00',
